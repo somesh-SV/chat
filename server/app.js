@@ -3,6 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const mainRoute = require("./Routes/routes");
 const cookiesParser = require("cookie-parser");
+const path = require("path");
 const { app, server } = require("./Socket/index");
 
 // Middleware
